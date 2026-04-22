@@ -1,0 +1,19 @@
+[package]
+name = "dbn-chunks"
+version = "0.0.0"
+edition = "2024"
+publish = false
+authors = ["William T. Nelson <35801+wtn@users.noreply.github.com>"]
+license = "Apache-2.0"
+repository = "https://github.com/wtn/dbn-chunks"
+keywords = []
+categories = []
+
+[dependencies]
+dbn = "0.56"
+
+[dev-dependencies]
+fallible-streaming-iterator = "0.1"
+
+[patch.crates-io]
+dbn = { path = "../dbn/rust/dbn" }
